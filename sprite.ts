@@ -1,16 +1,16 @@
 enum SpriteFlag2 {
     //% block="ghost"
-    Ghost = 0,
+    Ghost = 0 << 0,
     //% block="auto destroy"
-    AutoDestroy = 1,
+    AutoDestroy = 0 << 1,
     //% block="stay in screen"
-    StayInScreen = 2,
+    StayInScreen = 0 << 2 ,
     //% block="destroy on wall"
-    DestroyOnWall = 3,
+    DestroyOnWall = 0 << 3,
     //% block="bounce on wall"
-    BounceOnWall = 4,
+    BounceOnWall = 0 << 4,
     //% block="show physics"
-    ShowPhysics = 5
+    ShowPhysics = 0 << 5
 }
 
 enum CollisionDirection2 {
