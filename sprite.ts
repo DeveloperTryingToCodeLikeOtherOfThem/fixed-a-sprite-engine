@@ -46,7 +46,7 @@ enum FlipOption2 {
 /**
  * A sprite on the screen
  **/
-//% blockNamespace=sprites color="#4B7BEC" blockGap=8 weight=85
+//% blockNamespace=sprites2 color="#4B7BEC" blockGap=8 weight=85
 class Sprite2 implements SpriteLike2 {
     _x: Fx8
     _y: Fx8
